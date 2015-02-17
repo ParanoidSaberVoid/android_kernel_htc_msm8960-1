@@ -298,7 +298,7 @@ config AIO_OPTIMIZATION
 	  An experimental AIO FS kernel optimization
 
 config EXFAT_FS
-	bool "Exfat file system support"
+	tristate "exFAT File System Support"
 	default n
 	select NLS_UTF8
 
