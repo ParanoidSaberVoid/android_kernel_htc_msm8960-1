@@ -1386,6 +1386,10 @@ CONFIG_SCSI_MULTI_LUN=y
 CONFIG_SCSI_CONSTANTS=y
 # CONFIG_SCSI_LOGGING is not set
 CONFIG_SCSI_SCAN_ASYNC=y
+<<<<<<< HEAD:arch/arm/configs/void_intelli_defconfig
+=======
+CONFIG_SCSI_WAIT_SCAN=y
+>>>>>>> 06c3667... Build scsi_wait_scan into the kernel:arch/arm/configs/frosted_bricked_defconfig
 
 #
 # SCSI Transports
