@@ -2587,6 +2587,10 @@ config INTELLI_PLUG_HOTPLUG
           Generic Intelli-Plug cpu hotplug driver for ARM SOCs
 endchoice
 
+config CMDLINE_OPTIONS
+	bool "Command Line Interfacing"
+	default y
+
 config MSM_DCVS
 	bool "Use MSM DCVS for CPU/GPU Frequency control"
 	depends on MSM_SCM && MSM_MPDECISION && !MSM_MPDEC && !INTELLI_PLUG
